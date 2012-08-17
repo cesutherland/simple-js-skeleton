@@ -1,8 +1,8 @@
 // Application bootstrapper.
 Application = {
   initialize: function() {
-    var HomeView = require('views/home_view');
-    var Router = require('lib/router');
+    var HomeView = require('views/HomeView');
+    var Router = require('lib/Router');
     // Ideally, initialized classes should be kept in controllers & mediator.
     // If you're making big webapp, here's more sophisticated skeleton
     // https://github.com/paulmillr/brunch-with-chaplin
